@@ -72,6 +72,8 @@ public final class Core {
 	/** Logger handler for printing to console. */
 	private static ConsoleHandler consoleHandler;
 
+	private static SoundManager menuBgm = new SoundManager("res/menu.wav");
+
 
 	/**
 	 * Test implementation.
@@ -121,6 +123,7 @@ public final class Core {
 			switch (returnCode) {
 			case 1:
 				// Main menu.
+				menuBgm.loop();
 				currentScreen = new TitleScreen(width, height, FPS);
 				LOGGER.info("Starting " + WIDTH + "x" + HEIGHT
 						+ " title screen at " + FPS + " fps.");
@@ -131,6 +134,7 @@ public final class Core {
 				// Game & score.
 				do {
 					// One extra live every few levels.
+					menuBgm.stop();
 					boolean bonusLife = gameState.getLevel()
 							% EXTRA_LIFE_FRECUENCY == 0
 							&& gameState.getLivesRemaining() < MAX_LIVES;
