@@ -1,3 +1,4 @@
+GRV-2 풀리퀘 도전2
 # Space Invaders
 
 > Course: Software Development Practices (CES2024) - Monday Class (23-2-23929)
@@ -44,4 +45,5 @@ Requires Java 7 or better.
 Note that you should install the following resources in order to run the game.
 
 - [Space Invaders Regular (font)](http://www.fonts2u.com/space-invaders-regular.font) - &copy; kylemaoin 2010
+- GRV-2 풀리퀘
 - https://sdpagile.atlassian.net/browse/GRV-2 test
