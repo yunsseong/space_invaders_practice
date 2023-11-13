@@ -43,5 +43,8 @@ public class SoundManager {
         this.clip.stop();
         this.clip.close();
     }
+    public void test(){
+
+    }
 
 }
