@@ -45,6 +45,7 @@ public class SoundManager {
     }
     public void test(){
         System.out.printf("hello world");
+        System.out.printf("hello world");
     }
 
 }
