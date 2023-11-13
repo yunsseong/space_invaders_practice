@@ -44,7 +44,7 @@ public class SoundManager {
         this.clip.close();
     }
     public void test(){
-
+        System.out.printf("hello world");
     }
 
 }
